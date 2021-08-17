@@ -14,9 +14,9 @@
 출력
 첫째 줄에 최댓값을 출력하고, 둘째 줄에 최댓값이 몇 번째 수인지를 출력한다.
 """
-num_list = []
+num = []
 for i in range(9):
-    num_list.append(int(input()))
+    num.append(int(input()))
     
-print(max(num_list))
-print(num_list.index(max(num_list))+1)
+print(max(num))
+print(num.index(max(num))+1)
