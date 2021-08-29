@@ -12,11 +12,11 @@
 출력
 첫째 줄에 상수의 대답을 출력한다.
 """
-num1, num2 = input().split()
-num1 = int(num1[::-1])  # [::-1] : 역순
-num2 = int(num2[::-1])
+a, b = input().split()
+a = int(a[::-1])  # 역순처리
+b = int(b[::-1])
 
-if num1 > num2:
-    print(num1)
+if a > b:
+    print(a)
 else :
-    print(num2)
+    print(b)
